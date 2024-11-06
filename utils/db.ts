@@ -119,8 +119,8 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@cf/meta/llama-3-8b-instruct',
-    name: 'llama-3-8b-instruct',
+    id: '@cf/meta/llama-3.1-8b-instruct',
+    name: 'llama-3.1-8b-instruct',
     provider: 'workers-ai',
     type: 'chat'
 }]
@@ -133,6 +133,11 @@ export const imageGenModels: Model[] = [{
 }, {
     id: '@cf/stabilityai/stable-diffusion-xl-base-1.0',
     name: 'stable-diffusion-xl-base-1.0',
+    provider: 'workers-ai-image',
+    type: 'text-to-image'
+}, {
+    id: '@cf/black-forest-labs/flux-1-schnell',
+    name: 'flux-1-schnell',
     provider: 'workers-ai-image',
     type: 'text-to-image'
 }, {
